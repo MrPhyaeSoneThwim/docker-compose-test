@@ -3,7 +3,7 @@ services:
   backend:
     container_name: backend
     build: .
-    image: strapi:latest
+    image: mrphyaesonethwim41488934988931/strapi-test
     restart: unless-stopped
     env_file: .env
     environment:
